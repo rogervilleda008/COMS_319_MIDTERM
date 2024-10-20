@@ -3,27 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Input Car</title>
+    <title>Car Comparison</title>
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-
+    <style>
+        .comparison-container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .card {
+            width: 45%;
+        }
+        .card img {
+            max-width: 100%;
+        }
+    </style>
 </head>
 <body>
-    <div id="navbar-placeholder"></div>
-
     <div class="container mt-5">
-        <div class="card" style="width: 18rem;">
-            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Card image">
-            <div class="card-body">
-                <h5 class="card-title">Card Title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+        <h1 class="mb-4">Compare Two Cars</h1>
+        <div class="comparison-container">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Car 1</h5>
+                    <form id="car1-form">
+                        <div class="form-group">
+                            <label for="car1-image">Upload Image</label>
+                            <input type="file" class="form-control" id="car1-image" accept="image/*">
+                        </div>
+                        <div class="form-group">
+                            <label for="car1-make">Make</label>
+                            <input type="text" class="form-control" id="car1-make" placeholder="Enter car make">
+                        </div>
+                        <div class="form-group">
+                            <label for="car1-model">Model</label>
+                            <input type="text" class="form-control" id="car1-model" placeholder="Enter car model">
+                        </div>
+                        <div class="form-group">
+                            <label for="car1-year">Year</label>
+                            <input type="text" class="form-control" id="car1-year" placeholder="Enter car year">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Car 2</h5>
+                    <form id="car2-form">
+                        <div class="form-group">
+                            <label for="car2-image">Upload Image</label>
+                            <input type="file" class="form-control" id="car2-image" accept="image/*">
+                        </div>
+                        <div class="form-group">
+                            <label for="car2-make">Make</label>
+                            <input type="text" class="form-control" id="car2-make" placeholder="Enter car make">
+                        </div>
+                        <div class="form-group">
+                            <label for="car2-model">Model</label>
+                            <input type="text" class="form-control" id="car2-model" placeholder="Enter car model">
+                        </div>
+                        <div class="form-group">
+                            <label for="car2-year">Year</label>
+                            <input type="text" class="form-control" id="car2-year" placeholder="Enter car year">
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
+        <button class="btn btn-primary mt-4" onclick="compareCars()">Compare Cars</button>
+        <div id="comparison-result" class="mt-4"></div>
     </div>
 
-    <script src="navBar.js"></script>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script>
+        function compareCars() {
+            const car1Make = document.getElementById('car1-make').value;
+            const car1Model = document.getElementById('car1-model').value;
+            const car1Year = document.getElementById('car1-year').value;
+            const car1Image = document.getElementById('car1-image').files[0];
 
+            const car2Make = document.getElementById('car2-make').value;
+            const car2Model = document.getElementById('car2-model').value;
+            const car2Year = document.getElementById('car2-year').value;
+            const car2Image = document.getElementById('car2-image').files[0];
+
+            let result = '<h3>Comparison Result</h3>';
+            result += '<div class="comparison-container">';
+
+            result += '<div class="card">';
+            if (car1Image) {
+                const car1ImageURL = URL.createObjectURL(car1Image);
+                result += `<img src="${car1ImageURL}" class="card-img-top" alt="Car 1 image">`;
+            }
+            result += '<div class="card-body">';
+            result += '<h5 class="card-title">Car 1</h5>';
+            if (car1Make) result += `<p>Make: ${car1Make}</p>`;
+            if (car1Model) result += `<p>Model: ${car1Model}</p>`;
+            if (car1Year) result += `<p>Year: ${car1Year}</p>`;
+            result += '</div></div>';
+
+            result += '<div class="card">';
+            if (car2Image) {
+                const car2ImageURL = URL.createObjectURL(car2Image);
+                result += `<img src="${car2ImageURL}" class="card-img-top" alt="Car 2 image">`;
+            }
+            result += '<div class="card-body">';
+            result += '<h5 class="card-title">Car 2</h5>';
+            if (car2Make) result += `<p>Make: ${car2Make}</p>`;
+            if (car2Model) result += `<p>Model: ${car2Model}</p>`;
+            if (car2Year) result += `<p>Year: ${car2Year}</p>`;
+            result += '</div></div>';
+
+            result += '</div>';
+
+            if (!car1Make && !car2Make && !car1Model && !car2Model && !car1Year && !car2Year) {
+                result = '<p>Please enter details for both cars to compare.</p>';
+            }
+
+            document.getElementById('comparison-result').innerHTML = result;
+        }
+    </script>
 </body>
 </html>
