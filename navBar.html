@@ -1,30 +1,64 @@
-<!-- navbar.html -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="index.html">Reliability of Cars</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="aboutUs.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="input.html">Add Vehicle</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="CompareCars.html">Comparison</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="ComCarsCatalog.html">Common Cars</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="RelCarsCatalog.html">Reliable Cars</a>
-          </li>
-      </ul>
-    </div>
-  </nav>
-  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Catalog</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Custom CSS for Navbar */
+        .navbar-dark-purple {
+            background-color: #5e2a91; /* Dark purple color */
+            color: white; /* Change text color for better contrast */
+        }
+
+        .navbar-dark-purple .nav-link {
+            color: white; /* Ensure nav links are white */
+        }
+
+        .navbar-dark-purple .nav-link:hover {
+            color: #f8f9fa; /* Lighten link color on hover */
+        }
+
+        .navbar-dark-purple .navbar-brand {
+            color: white; /* Ensure brand text is white */
+        }
+
+        .navbar-dark-purple .navbar-brand:hover {
+            color: #f8f9fa; /* Lighten brand color on hover */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar HTML -->
+    <nav class="navbar navbar-expand-lg navbar-light navbar-dark-purple">
+        <a class="navbar-brand" href="index.html">Reliability of Cars</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutUs.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="input.html">Add Vehicle</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="CompareCars.html">Comparison</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="ComCarsCatalog.html">Common Cars</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="RelCarsCatalog.html">Reliable Cars</a>
+            </li>
+          </ul>
+        </div>
+
+</body>
+</html>
