@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Catalog with Filter</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div id="navbar-placeholder"></div>
+
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Car Catalog</h1>
+
+        <!-- Filter Section -->
+        <div class="row mb-4">
+            <div class="col-md-4">
+                <select id="makeFilter" class="form-control">
+                    <option value="">Filter by Make</option>
+                </select>
+            </div>
+            <div class="col-md-4">
+                <select id="modelFilter" class="form-control">
+                    <option value="">Filter by Model</option>
+                </select>
+            </div>
+            <div class="col-md-4">
+                <select id="yearFilter" class="form-control">
+                    <option value="">Filter by Year</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Car Catalog -->
+        <div id="car-catalog" class="row"></div>
+    </div>
+
+    <!-- Modal for Car Details -->
+    <div class="modal fade" id="carDetailsModal" tabindex="-1" aria-labelledby="carDetailsModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="carDetailsModalLabel">Car Details</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img id="carModalImage" class="img-fluid mb-3" alt="">
+            <h5 id="carModalTitle"></h5>
+            <p id="carModalDescription"></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- External JavaScript file -->
+    <script src="comcar.js"></script>
+    <script src="navBar.js"></script>
+
+</body>
+</html>
