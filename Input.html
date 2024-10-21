@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Car Comparison</title>
+    <title>RAD FIND</title>
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
+        body {
+            background-color: #f0f8ff; /* Light blue for a lively feel */
+        }
         .comparison-container {
             display: flex;
             justify-content: space-between;
@@ -20,8 +23,13 @@
         .title {
             text-align: center;
             margin-top: 20px;
+            color: #007bff; /* Bootstrap primary color */
         }
         .compare-btn-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        #best-car-result {
             text-align: center;
             margin-top: 20px;
         }
@@ -29,56 +37,40 @@
 </head>
 <body>
     <div class="container mt-5">
-        <h1 class="title mb-4">Your Vehicle</h1>
+        <h1 class="title mb-4">RAD FIND</h1>
         <div class="comparison-container">
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title">Car 1</h5>
-                    <form id="car1-form">
-                        <div class="form-group">
-                            <label for="car1-make">Make</label>
-                            <select class="form-control" id="car1-make" onchange="loadCarDetails(1)">
-                                <!-- Options will be populated by JavaScript -->
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="car1-model">Model</label>
-                            <select class="form-control" id="car1-model" onchange="loadCarDetails(1)">
-                                <!-- Options will be populated by JavaScript -->
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="car1-year">Year</label>
-                            <select class="form-control" id="car1-year">
-                                <!-- Options will be populated by JavaScript -->
-                            </select>
-                        </div>
-                    </form>
+                    <div>
+                        <input type="text" id="car1-name" placeholder="Type car name..." oninput="filterMakes(1)">
+                        <select id="car1-make" onchange="loadCarDetails(1)">
+                            <option value="">Select Make</option>
+                        </select>
+                        <select id="car1-model" onchange="loadCarDetails(1)">
+                            <option value="">Select Model</option>
+                        </select>
+                        <select id="car1-year">
+                            <option value="">Select Year</option>
+                        </select>
+                    </div>
                 </div>
             </div>
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title">Car 2</h5>
-                    <form id="car2-form">
-                        <div class="form-group">
-                            <label for="car2-make">Make</label>
-                            <select class="form-control" id="car2-make" onchange="loadCarDetails(2)">
-                                <!-- Options will be populated by JavaScript -->
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="car2-model">Model</label>
-                            <select class="form-control" id="car2-model" onchange="loadCarDetails(2)">
-                                <!-- Options will be populated by JavaScript -->
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="car2-year">Year</label>
-                            <select class="form-control" id="car2-year">
-                                <!-- Options will be populated by JavaScript -->
-                            </select>
-                        </div>
-                    </form>
+                    <div>
+                        <input type="text" id="car2-name" placeholder="Type car name..." oninput="filterMakes(2)">
+                        <select id="car2-make" onchange="loadCarDetails(2)">
+                            <option value="">Select Make</option>
+                        </select>
+                        <select id="car2-model" onchange="loadCarDetails(2)">
+                            <option value="">Select Model</option>
+                        </select>
+                        <select id="car2-year">
+                            <option value="">Select Year</option>
+                        </select>
+                    </div>
                 </div>
             </div>
         </div>
