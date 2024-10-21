@@ -1,10 +1,82 @@
 [
     {
-        "Make":"Honda",
-        "Model":"Civic",
-        "Year":"2004",
-        "Pic":"image.png",
-        "Desc":"jfjfjf",
-        "score":"9.5"
+        "Make": "Honda",
+        "Model": "Civic",
+        "Year": "2004",
+        "Pic": "carpics/civic.jpg",
+        "Desc": "The 2004 Honda Civic is known for its fuel efficiency and reliability. It offers a comfortable ride and has a spacious interior.",
+        "score": "8.5"
+    },
+    {
+        "Make": "Honda",
+        "Model": "CRV",
+        "Year": "2016",
+        "Pic": "carpics/crv.jpg",
+        "Desc": "The 2016 Honda CR-V is a versatile SUV with ample cargo space, advanced safety features, and excellent fuel economy.",
+        "score": "9.0"
+    },
+    {
+        "Make": "Chevrolet",
+        "Model": "Malibu",
+        "Year": "2008",
+        "Pic": "carpics/malibu.jpg",
+        "Desc": "The 2008 Chevrolet Malibu is a mid-size sedan that offers a smooth ride, stylish design, and a strong reputation for reliability.",
+        "score": "7.5"
+    },
+    {
+        "Make": "Honda",
+        "Model": "Accord",
+        "Year": "2012",
+        "Pic": "carpics/accord.jpg",
+        "Desc": "The 2012 Honda Accord combines performance with comfort, featuring a spacious interior and robust engine options.",
+        "score": "9.2"
+    },
+    {
+        "Make": "Hyundai",
+        "Model": "Elantra",
+        "Year": "2008",
+        "Pic": "carpics/elantra.jpg",
+        "Desc": "The 2008 Hyundai Elantra is known for its affordability, reliability, and good fuel economy, making it an excellent choice for budget-conscious drivers.",
+        "score": "8.0"
+    },
+    {
+        "Make": "Kia",
+        "Model": "Optima",
+        "Year": "2010",
+        "Pic": "carpics/optima.jpg",
+        "Desc": "The 2010 Kia Optima stands out with its sleek design and spacious cabin, offering great value and a comfortable ride.",
+        "score": "8.7"
+    },
+    {
+        "Make": "Kia",
+        "Model": "Sportage",
+        "Year": "2017",
+        "Pic": "carpics/sportage.jpg",
+        "Desc": "The 2017 Kia Sportage is a compact SUV with a bold design, high-tech features, and a comfortable interior for both passengers and cargo.",
+        "score": "9.1"
+    },
+    {
+        "Make": "Mazda",
+        "Model": "3",
+        "Year": "2013",
+        "Pic": "carpics/mazda.jpg",
+        "Desc": "The 2013 Mazda3 is praised for its sporty handling, fuel-efficient engines, and stylish exterior, making it a favorite among compact cars.",
+        "score": "9.3"
+    },
+    {
+        "Make": "Subaru",
+        "Model": "Outback",
+        "Year": "2009",
+        "Pic": "carpics/outback.jpg",
+        "Desc": "The 2009 Subaru Outback offers all-wheel drive, rugged capability, and spacious interior, making it ideal for outdoor enthusiasts.",
+        "score": "8.5"
+    },
+    {
+        "Make": "Toyota",
+        "Model": "Camry",
+        "Year": "2006",
+        "Pic": "carpics/camry.jpg",
+        "Desc": "The 2006 Toyota Camry is a reliable sedan known for its comfort, safety, and strong resale value, appealing to a wide range of drivers.",
+        "score": "8.8"
     }
 ]
