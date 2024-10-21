@@ -1,0 +1,11 @@
+ /* for additional styling */ */
+
+.comparison-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#comparison-result {
+    margin-top: 20px;
+}
