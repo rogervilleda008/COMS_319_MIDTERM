@@ -3,6 +3,8 @@
         "Make":"Honda",
         "Model":"Civic",
         "Year":"2004",
-        "Pic":"image.png"
+        "Pic":"image.png",
+        "Desc":"jfjfjf",
+        "score":"9.5"
     }
 ]
