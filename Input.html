@@ -3,27 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Input Car</title>
+    <title>Car Comparison</title>
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-
+    <style>
+        .comparison-container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .card {
+            width: 45%;
+        }
+        .card img {
+            max-width: 100%;
+        }
+        .title {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .compare-btn-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-    <div id="navbar-placeholder"></div>
-
     <div class="container mt-5">
-        <div class="card" style="width: 18rem;">
-            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Card image">
-            <div class="card-body">
-                <h5 class="card-title">Card Title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+        <h1 class="title mb-4">Your Vehicle</h1>
+        <div class="comparison-container">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Car 1</h5>
+                    <form id="car1-form">
+                        <div class="form-group">
+                            <label for="car1-make">Make</label>
+                            <select class="form-control" id="car1-make" onchange="loadCarDetails(1)">
+                                <!-- Options will be populated by JavaScript -->
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="car1-model">Model</label>
+                            <select class="form-control" id="car1-model" onchange="loadCarDetails(1)">
+                                <!-- Options will be populated by JavaScript -->
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="car1-year">Year</label>
+                            <select class="form-control" id="car1-year">
+                                <!-- Options will be populated by JavaScript -->
+                            </select>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Car 2</h5>
+                    <form id="car2-form">
+                        <div class="form-group">
+                            <label for="car2-make">Make</label>
+                            <select class="form-control" id="car2-make" onchange="loadCarDetails(2)">
+                                <!-- Options will be populated by JavaScript -->
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="car2-model">Model</label>
+                            <select class="form-control" id="car2-model" onchange="loadCarDetails(2)">
+                                <!-- Options will be populated by JavaScript -->
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="car2-year">Year</label>
+                            <select class="form-control" id="car2-year">
+                                <!-- Options will be populated by JavaScript -->
+                            </select>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
+        <div class="compare-btn-container">
+            <button class="btn btn-primary mt-4" onclick="compareCars()">Compare</button>
+        </div>
+        <div id="comparison-result" class="mt-4"></div>
+        <div id="best-car-result" class="mt-4"></div>
     </div>
 
-    <script src="navBar.js"></script>
-
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="input.js"></script>
 </body>
 </html>
