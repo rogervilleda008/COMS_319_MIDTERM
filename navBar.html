@@ -3,36 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Car Catalog</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-        /* Custom CSS for Navbar */
-        .navbar-dark-purple {
-            background-color: #5e2a91; /* Dark purple color */
-            color: white; /* Change text color for better contrast */
-        }
-
-        .navbar-dark-purple .nav-link {
-            color: white; /* Ensure nav links are white */
-        }
-
-        .navbar-dark-purple .nav-link:hover {
-            color: #f8f9fa; /* Lighten link color on hover */
-        }
-
-        .navbar-dark-purple .navbar-brand {
-            color: white; /* Ensure brand text is white */
-        }
-
-        .navbar-dark-purple .navbar-brand:hover {
-            color: #f8f9fa; /* Lighten brand color on hover */
-        }
-    </style>
+    <title>Car Reliability</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="navBar.css">
 </head>
 <body>
-
-    <!-- Navbar HTML -->
-    <nav class="navbar navbar-expand-lg navbar-light navbar-dark-purple">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-purple">
         <a class="navbar-brand" href="index.html">Reliability of Cars</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -53,12 +31,17 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="ComCarsCatalog.html">Common Cars</a>
-            </li>
-            <li class="nav-item">
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="RelCarsCatalog.html">Reliable Cars</a>
-            </li>
+              </li>
           </ul>
         </div>
+    </nav>
 
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
