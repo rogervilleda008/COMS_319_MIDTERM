@@ -1,0 +1,35 @@
+/* Custom background color for navbar */
+.bg-purple {
+    background-color: #4B0082; /* Dark purple */
+}
+
+/* White text for navbar links */
+.navbar-nav .nav-link {
+    color: white;
+}
+
+/* Ensure active/hover states keep text white */
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+    color: #ddd;
+}
+
+/* White dropdown menu background */
+.dropdown-menu {
+    background-color: white;
+}
+
+/* Black text for dropdown items */
+.dropdown-item {
+    color: black;
+}
+
+/* Change dropdown item hover color */
+.dropdown-item:hover {
+    background-color: #f1f1f1;
+}
+
+/* Keep the dropdown toggle link white */
+.dropdown-toggle {
+    color: white;
+}
