@@ -4,73 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RAD FIND</title>
-    <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        body {
-            background-color: #f0f8ff; /* Light blue for a lively feel */
-        }
-        .comparison-container {
-            display: flex;
-            justify-content: space-between;
-        }
-        .card {
-            width: 45%;
-        }
-        .card img {
-            max-width: 100%;
-        }
-        .title {
-            text-align: center;
-            margin-top: 20px;
-            color: #007bff; /* Bootstrap primary color */
-        }
-        .compare-btn-container {
-            text-align: center;
-            margin-top: 20px;
-        }
-        #best-car-result {
-            text-align: center;
-            margin-top: 20px;
-        }
+        body { background-color: #f0f8ff; }
+        .comparison-container { display: flex; justify-content: space-between; }
+        .card { width: 45%; }
+        .card img { max-width: 100%; }
+        .title { text-align: center; margin-top: 20px; color: #007bff; }
+        .compare-btn-container { text-align: center; margin-top: 20px; }
+        #best-car-result { text-align: center; margin-top: 20px; }
     </style>
 </head>
 <body>
+    <div id="navbar-placeholder"></div> 
+
     <div class="container mt-5">
-        <h1 class="title mb-4">RAD FIND</h1>
+        <!-- Comparison Content -->
         <div class="comparison-container">
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title">Car 1</h5>
-                    <div>
-                        <input type="text" id="car1-name" placeholder="Type car name..." oninput="filterMakes(1)">
-                        <select id="car1-make" onchange="loadCarDetails(1)">
-                            <option value="">Select Make</option>
-                        </select>
-                        <select id="car1-model" onchange="loadCarDetails(1)">
-                            <option value="">Select Model</option>
-                        </select>
-                        <select id="car1-year">
-                            <option value="">Select Year</option>
-                        </select>
-                    </div>
+                    <input type="text" id="car1-name" placeholder="Type car name..." oninput="filterMakes(1)">
+                    <select id="car1-make" onchange="loadCarDetails(1)"></select>
+                    <select id="car1-model" onchange="loadCarDetails(1)"></select>
+                    <select id="car1-year"></select>
                 </div>
             </div>
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title">Car 2</h5>
-                    <div>
-                        <input type="text" id="car2-name" placeholder="Type car name..." oninput="filterMakes(2)">
-                        <select id="car2-make" onchange="loadCarDetails(2)">
-                            <option value="">Select Make</option>
-                        </select>
-                        <select id="car2-model" onchange="loadCarDetails(2)">
-                            <option value="">Select Model</option>
-                        </select>
-                        <select id="car2-year">
-                            <option value="">Select Year</option>
-                        </select>
-                    </div>
+                    <input type="text" id="car2-name" placeholder="Type car name..." oninput="filterMakes(2)">
+                    <select id="car2-make" onchange="loadCarDetails(2)"></select>
+                    <select id="car2-model" onchange="loadCarDetails(2)"></select>
+                    <select id="car2-year"></select>
                 </div>
             </div>
         </div>
@@ -81,11 +47,13 @@
         <div id="best-car-result" class="mt-4"></div>
     </div>
 
-    <!-- Bootstrap JS and dependencies -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <div id="footer-container"></div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <!-- Custom JavaScript -->
     <script src="input.js"></script>
+    <script src="navBar.js"></script>
+    <script src="footer.js"></script>
 </body>
 </html>

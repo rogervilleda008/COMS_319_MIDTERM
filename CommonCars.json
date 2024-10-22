@@ -4,248 +4,104 @@
         "Model": "Civic",
         "Year": "2004",
         "Pic": "https://th.bing.com/th/id/R.dbaa1d7bd105e042673a521eafa3fb20?rik=zuetuksn9VLF3A&riu=http%3a%2f%2fmomentcar.com%2fimages%2fhonda-civic-2004-2.jpg&ehk=WMmN1MXB67dN0SWLnbBpAvpOWH2bx48F4Y5YWbuJ%2fUA%3d&risl=&pid=ImgRaw&r=0",
-        "Desc":"The 2004 Honda Civic is a compact car known for its fuel efficiency and practicality. It features reliable 4-cylinder engines and low maintenance costs, making it ideal for long-term ownership. Honda's reputation for durability ensures that many Civics from this era run smoothly for years with minimal issues"
+        "Desc": "The 2004 Honda Civic is a compact car known for its fuel efficiency and practicality. Its reliable 4-cylinder engine and low maintenance costs make it ideal for long-term ownership. Honda's reputation for durability ensures many Civics from this era run smoothly for years."
     },
     {
         "Make": "Toyota",
         "Model": "Camry",
         "Year": "2010",
-        "Pic": "https://th.bing.com/th/id/R.8df9f351e5833240f25d81fa69897f71?rik=Le1fPBZGXdT4vw&riu=http%3a%2f%2fstatic.cargurus.com%2fimages%2fsite%2f2011%2f12%2f18%2f02%2f34%2f2010_toyota_camry_le-pic-7652992503062758030.jpeg&ehk=ks0iW3pBincIVrcfJGVnAt0yiSwOBd3jI6JgiOu848Q%3d&risl=&pid=ImgRaw&r=0"
+        "Pic": "https://th.bing.com/th/id/R.8df9f351e5833240f25d81fa69897f71?rik=Le1fPBZGXdT4vw&riu=http%3a%2f%2fstatic.cargurus.com%2fimages%2fsite%2f2011%2f12%2f18%2f02%2f34%2f2010_toyota_camry_le-pic-7652992503062758030.jpeg&ehk=ks0iW3pBincIVrcfJGVnAt0yiSwOBd3jI6JgiOu848Q%3d&risl=&pid=ImgRaw&r=0",
+        "Desc": "The 2010 Toyota Camry is a midsize sedan known for its comfort and reliability. It offers a smooth ride, excellent fuel economy, and a spacious interior. The Camry has a reputation for longevity and low-cost maintenance, making it a favorite for families."
     },
     {
         "Make": "Ford",
         "Model": "Mustang",
         "Year": "2015",
-        "Pic": "https://www.hdcarwallpapers.com/walls/2015_roush_ford_mustang_rs-HD.jpg"
+        "Pic": "https://www.hdcarwallpapers.com/walls/2015_roush_ford_mustang_rs-HD.jpg",
+        "Desc": "The 2015 Ford Mustang is a classic American muscle car, redesigned for a more modern look. It offers powerful engine options, including the iconic V8, along with improved handling. The sleek design and advanced technology make it a top choice for performance enthusiasts."
     },
     {
         "Make": "Chevrolet",
         "Model": "Impala",
         "Year": "2018",
-        "Pic": "https://media.ed.edmunds-media.com/chevrolet/impala/2018/oem/2018_chevrolet_impala_sedan_premier_fq_oem_2_1280.jpg"
+        "Pic": "https://media.ed.edmunds-media.com/chevrolet/impala/2018/oem/2018_chevrolet_impala_sedan_premier_fq_oem_2_1280.jpg",
+        "Desc": "The 2018 Chevrolet Impala is a full-size sedan offering a blend of performance and luxury. It comes with a spacious interior, advanced tech features, and a smooth ride. Its V6 engine option provides a strong yet comfortable driving experience, ideal for long trips."
     },
     {
         "Make": "BMW",
         "Model": "3 Series",
         "Year": "2020",
-        "Pic": "https://th.bing.com/th/id/OIP.r9nqoyeKVJmWLfxbz3mN6AAAAA?rs=1&pid=ImgDetMain"
+        "Pic": "https://th.bing.com/th/id/OIP.r9nqoyeKVJmWLfxbz3mN6AAAAA?rs=1&pid=ImgDetMain",
+        "Desc": "The 2020 BMW 3 Series is a compact luxury sedan with sharp handling and a high-quality interior. Known for its sporty performance, the 3 Series offers various engine options, including turbocharged variants. It is praised for its balance between luxury, technology, and driving dynamics."
     },
     {
         "Make": "Audi",
         "Model": "A4",
         "Year": "2019",
-        "Pic": "https://th.bing.com/th/id/OIP.uy9xpVKiZ-hlXU2I4zQqywHaE7?rs=1&pid=ImgDetMain"
+        "Pic": "https://th.bing.com/th/id/OIP.uy9xpVKiZ-hlXU2I4zQqywHaE7?rs=1&pid=ImgDetMain",
+        "Desc": "The 2019 Audi A4 is a luxury compact sedan known for its elegant design and high-tech features. It offers a smooth ride, all-wheel drive, and a range of powerful turbocharged engines. Inside, the cabin is upscale, with premium materials and advanced driver assistance systems."
     },
     {
         "Make": "Honda",
         "Model": "Accord",
         "Year": "2012",
-        "Pic": "https://th.bing.com/th/id/OIP.LMpgEV0MsHoV3NkZTZoCDQAAAA?rs=1&pid=ImgDetMain"
+        "Pic": "https://th.bing.com/th/id/OIP.LMpgEV0MsHoV3NkZTZoCDQAAAA?rs=1&pid=ImgDetMain",
+        "Desc": "The 2012 Honda Accord is a reliable midsize sedan that offers strong performance and excellent fuel economy. It features a spacious interior, making it a great choice for families. Known for its reliability, the Accord is a top contender for long-term ownership."
     },
     {
         "Make": "Toyota",
         "Model": "Corolla",
         "Year": "2017",
-        "Pic": "https://th.bing.com/th/id/OIP.WG1MaR_uqroz3U_QQbCWZAHaE8?w=221&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+        "Pic": "https://th.bing.com/th/id/OIP.WG1MaR_uqroz3U_QQbCWZAHaE8?w=221&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+        "Desc": "The 2017 Toyota Corolla is a compact car that offers practicality, reliability, and fuel efficiency. It comes with a comfortable interior and user-friendly tech features, ideal for daily commuting. Its long history of dependability makes it one of the best-selling vehicles worldwide."
     },
     {
         "Make": "Ford",
         "Model": "Fusion",
         "Year": "2016",
-        "Pic": "https://th.bing.com/th/id/OIP.q2p-n1GRuGn77owhLyq3LgAAAA?rs=1&pid=ImgDetMain"
+        "Pic": "https://th.bing.com/th/id/OIP.q2p-n1GRuGn77owhLyq3LgAAAA?rs=1&pid=ImgDetMain",
+        "Desc": "The 2016 Ford Fusion is a midsize sedan known for its sleek design and solid performance. It offers a comfortable ride with an available all-wheel-drive option. The Fusion stands out for its blend of style, technology, and practicality, making it a popular choice among drivers."
     },
     {
         "Make": "Chevrolet",
         "Model": "Malibu",
         "Year": "2019",
-        "Pic": "https://th.bing.com/th/id/OIP.FkUM-ep6pWYjYQ2lHzrWVgAAAA?rs=1&pid=ImgDetMain"
+        "Pic": "https://th.bing.com/th/id/OIP.FkUM-ep6pWYjYQ2lHzrWVgAAAA?rs=1&pid=ImgDetMain",
+        "Desc": "The 2019 Chevrolet Malibu is a midsize sedan offering a smooth ride and advanced safety features. With its modern design and turbocharged engine options, the Malibu provides a good balance of performance and efficiency. It’s a smart choice for those looking for a stylish yet practical vehicle."
     },
     {
         "Make": "Nissan",
         "Model": "Altima",
         "Year": "2018",
-        "Pic": "https://i.pinimg.com/originals/4c/d1/83/4cd1835ca819f04a784eb94c605aeab7.jpg"
+        "Pic": "https://i.pinimg.com/originals/4c/d1/83/4cd1835ca819f04a784eb94c605aeab7.jpg",
+        "Desc": "The 2018 Nissan Altima is a midsize sedan known for its comfort and fuel efficiency. It offers a refined interior with modern features, including advanced driver-assistance systems. The Altima's responsive handling and comfortable ride make it a solid choice for daily commuting."
     },
     {
         "Make": "Hyundai",
         "Model": "Elantra",
         "Year": "2021",
-        "Pic": "https://autonxt.net/wp-content/uploads/2020/11/2021_Hyundai_Elantra_Limited_2.jpg"
+        "Pic": "https://autonxt.net/wp-content/uploads/2020/11/2021_Hyundai_Elantra_Limited_2.jpg",
+        "Desc": "The 2021 Hyundai Elantra is a compact sedan with a bold design and advanced technology. It offers impressive fuel economy, along with a high-quality interior that features a spacious cabin. Hyundai's warranty and reliability make the Elantra an attractive option in its class."
     },
     {
         "Make": "Mazda",
         "Model": "3",
         "Year": "2019",
-        "Pic": "https://www.motoringresearch.com/wp-content/uploads/2019/02/Mazda3_HB_SoulRedCrystal_Still-1.jpg"
+        "Pic": "https://www.motoringresearch.com/wp-content/uploads/2019/02/Mazda3_HB_SoulRedCrystal_Still-1.jpg",
+        "Desc": "The 2019 Mazda3 is a compact car that stands out for its sporty driving dynamics and upscale interior. It offers a choice of sedan and hatchback body styles, both of which feature Mazda's elegant design language. The car is praised for its precise handling and responsive performance."
     },
     {
         "Make": "Volkswagen",
         "Model": "Jetta",
         "Year": "2020",
-        "Pic": "https://preview.redd.it/90cc15oowfg21.jpg?auto=webp&s=0e61ee9252543d7085a2371248e6ba76ee157dc2"
-    },
-    {
-        "Make": "Subaru",
-        "Model": "Outback",
-        "Year": "2022",
-        "Pic": "https://autonxt.net/wp-content/uploads/2021/05/2022-Subaru-Outback-Wilderness34.jpg"
+        "Pic": "https://preview.redd.it/90cc15oowfg21.jpg?auto=webp&s=0e61ee9252543d7085a2371248e6ba76ee157dc2",
+        "Desc": "The 2020 Volkswagen Jetta is a compact sedan known for its refined ride and spacious interior. It offers advanced technology features, including a digital cockpit and a responsive touchscreen interface. With solid fuel economy and a turbocharged engine, the Jetta is efficient and fun to drive."
     },
     {
         "Make": "Kia",
         "Model": "Optima",
         "Year": "2017",
-        "Pic": "https://e8cc1ad58757a272733c-f375efdd590d262ae84874884aac12c4.ssl.cf1.rackcdn.com/5XXGV4L21HG147409/cf25aa9c7692e435dee659c695e26b68.jpg"
-    },
-    {
-        "Make": "Tesla",
-        "Model": "Model S",
-        "Year": "2021",
-        "Pic": "https://th.bing.com/th/id/OIP.7i8iGtrf0T1A4GOxSesoogHaFj?rs=1&pid=ImgDetMain"
-    },
-    {
-        "Make": "Mercedes-Benz",
-        "Model": "C-Class",
-        "Year": "2020",
-        "Pic": "https://th.bing.com/th/id/OIP.6qZynU72_gTZtsUL2v9nZAAAAA?w=210&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
-    },
-    {
-        "Make": "Honda",
-        "Model": "CR-V",
-        "Year": "2020",
-        "Pic": "https://th.bing.com/th/id/OIP.xvP1F6ybo-aZkRzkMpp2FgHaE8?w=281&h=187&c=7&r=0&o=5&dpr=1.5&pid=1.7"
-    },
-    {
-        "Make": "Ford",
-        "Model": "Escape",
-        "Year": "2021",
-        "Pic": "https://th.bing.com/th/id/OIP.pYzKicHtN8fIjZE4NTrBZwHaEK?w=280&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
-    },
-    {
-        "Make": "Chevrolet",
-        "Model": "Equinox",
-        "Year": "2019",
-        "Pic": "https://th.bing.com/th/id/OIP.UiVJJ8zLiR2tSHVqu3ZeyAHaEo?w=236&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
-    },
-    {
-        "Make": "BMW",
-        "Model": "X5",
-        "Year": "2022",
-        "Pic": "https://th.bing.com/th/id/OIP.zvru3Z5IbhczbC3dROZaHQHaE3?w=270&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
-    },
-    {
-        "Make": "Audi",
-        "Model": "Q5",
-        "Year": "2018",
-        "Pic": "https://th.bing.com/th/id/OIP.s2jDgHzs7Wchn_jnVp18owHaE6?w=233&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
-    },
-    {
-        "Make": "Lexus",
-        "Model": "RX",
-        "Year": "2021",
-        "Pic": "https://th.bing.com/th/id/OIP.bkVjKdLBoF-Nl56kNZnoYgHaFj?w=209&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
-    },
-        {
-            "Make": "Nissan",
-            "Model": "Altima",
-            "Year": "2004",
-            "Pic": "https://th.bing.com/th/id/OIP.6mZb1t4OjX3k9F806VuqoQHaFj?w=207&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
-        },
-        {
-            "Make": "Nissan",
-            "Model": "Sentra",
-            "Year": "2007",
-            "Pic": "https://th.bing.com/th/id/OIP.PwJa2KNkWxn80_K9j66h2QHaFj?w=221&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
-        },
-        {
-            "Make": "Honda",
-            "Model": "Civic",
-            "Year": "2006",
-            "Pic": "https://th.bing.com/th/id/OIP.A9bZMCSq7szioiS_whaJxQHaE8?w=298&h=199&c=7&r=0&o=5&dpr=1.5&pid=1.7"
-        },
-        {
-            "Make": "Ford",
-            "Model": "Focus",
-            "Year": "2005",
-            "Pic": "https://th.bing.com/th/id/OIP.StZUl4L572HeYLcJjLHySwHaGN?w=224&h=187&c=7&r=0&o=5&dpr=1.5&pid=1.7"
-        },
-        {
-            "Make": "Chevrolet",
-            "Model": "Malibu",
-            "Year": "2008",
-            "Pic": "https://th.bing.com/th/id/OIP.AsfE16fgju6NiBm82-EclgHaEh?w=263&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
-        },
-        {
-            "Make": "Toyota",
-            "Model": "Camry",
-            "Year": "2005",
-            "Pic": "https://th.bing.com/th/id/OIP.7cy9mcy-xUJJ3fAbWs3eIQHaE8?w=281&h=188&c=7&r=0&o=5&dpr=1.5&pid=1.7"
-        },
-        {
-            "Make": "Hyundai",
-            "Model": "Elantra",
-            "Year": "2009",
-            "Pic": "https://th.bing.com/th/id/OIP.O59O_qAhmK4vKYi4s9N9kQHaFj?w=266&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
-        },
-        {
-            "Make": "Mazda",
-            "Model": "Mazda3",
-            "Year": "2010",
-            "Pic": "https://th.bing.com/th/id/OIP.VmypBQG_kDgKusL06NOumQHaE7?w=232&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
-        },
-        {
-            "Make": "Kia",
-            "Model": "Forte",
-            "Year": "2011",
-            "Pic": "https://th.bing.com/th/id/OIP.W0MVzUSsuRQmQV8Vzf-iKgHaE7?w=237&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
-        },
-        {
-            "Make": "Chrysler",
-            "Model": "200",
-            "Year": "2013",
-            "Pic": "https://th.bing.com/th/id/OIP.K_T9hSl9wEU-MtnK3vT-WQHaEo?w=314&h=196&c=7&r=0&o=5&dpr=1.5&pid=1.7"
-        },
-        {
-            "Make": "Dodge",
-            "Model": "Charger",
-            "Year": "2015",
-            "Pic": "https://th.bing.com/th/id/OIP.N26bGHxwRyjgFH0miuZtBAHaFj?w=251&h=188&c=7&r=0&o=5&dpr=1.5&pid=1.7"
-        },
-        {
-            "Make": "Ford",
-            "Model": "Mustang",
-            "Year": "2014",
-            "Pic": "https://th.bing.com/th/id/OIP.JGp1qvYsQurhi78KgO6FSwHaE8?w=296&h=197&c=7&r=0&o=5&dpr=1.5&pid=1.7"
-        },
-        {
-            "Make": "Chevrolet",
-            "Model": "Camaro",
-            "Year": "2017",
-            "Pic": "https://th.bing.com/th/id/OIP.J5AKkc1AYZGnRpnCzBWKkgHaE8?w=278&h=185&c=7&r=0&o=5&dpr=1.5&pid=1.7"
-        },
-        {
-            "Make": "Subaru",
-            "Model": "Impreza",
-            "Year": "2018",
-            "Pic": "https://th.bing.com/th/id/OIP.VKhxKtPTS4n-DAsOiSLg8AHaE8?w=218&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
-        },
-        {
-            "Make": "Volkswagen",
-            "Model": "Golf",
-            "Year": "2019",
-            "Pic": "https://th.bing.com/th/id/OIP.GR5W844zgbtCtxtbKwgMUAHaEh?w=294&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
-        },
-        {
-            "Make": "Toyota",
-            "Model": "Corolla",
-            "Year": "2020",
-            "Pic": "https://th.bing.com/th/id/OIP.-Bsmy_9z4pDRFHGQEoeHhgHaEn?w=296&h=185&c=7&r=0&o=5&dpr=1.5&pid=1.7"
-        },
-        {
-            "Make": "Kia",
-            "Model": "Soul",
-            "Year": "2021",
-            "Pic": "https://th.bing.com/th/id/OIP.i6IEY6uKBsdwyhsc9NPlCQHaFj?w=273&h=205&c=7&r=0&o=5&dpr=1.5&pid=1.7"
-        }
-    ]
-    
-
+        "Pic": "https://th.bing.com/th/id/OIP.k9ANbADwSpF8kIH6u4OP_AHaEK?w=305&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+        "Desc": "The 2017 Kia Optima is a midsize sedan that combines style, comfort, and value. It offers a well-equipped interior with user-friendly technology and driver-assistance features. The Optima's sharp design and efficient engines make it a standout in the segment."
+    }
+]

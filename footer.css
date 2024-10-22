@@ -1,0 +1,36 @@
+/* footer.css */
+.footer-bar {
+    background-color: #4b0082; /* Dark purple */
+    padding: 20px 0;
+    color: #ffffff; /* White text for contrast */
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-container p {
+    margin: 0;
+    padding: 10px;
+    font-size: 14px;
+    color: #dddddd; /* Light gray for the copyright text */
+}
+
+.footer-nav {
+    margin-top: 10px;
+}
+
+.footer-nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+}
+
+.footer-nav a:hover {
+    color: #ffdd00; /* Gold color on hover for links */
+    text-decoration: underline;
+}
