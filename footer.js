@@ -1,5 +1,5 @@
 function loadFooter() {
-    fetch('footer.html') // Fetch the footer HTML
+    fetch('footer.html')
         .then(response => response.text()) // Get the response as text
         .then(data => {
             document.getElementById('footer-container').innerHTML = data; // Insert footer into the container
